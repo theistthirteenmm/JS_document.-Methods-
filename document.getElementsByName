@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 name="test">hiiiiiiii</h1>
+<h1 name="test">hiiiiiiii</h1>
+<h1 name="test">hiiiiiiii</h1>
+
+
+<script>
+document.getElementsByName(test)[0].innerHTML = "bye";
+document.getElementsByName(test)[1].innerHTML = "byee";
+document.getElementsByName(test)[2].innerHTML = "byee";
+</script>
+
+//بر اساس صفت نام تگ می توان انرا انتخاب و تغییر داد
+
+</body>
+</html>
