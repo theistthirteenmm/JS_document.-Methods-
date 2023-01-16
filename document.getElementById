@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 id="test">hiiiiiiii</h1>
+<h2></h2>
+
+<script>
+document.getElementById("test").innerHTML = "byeeeee";
+</script>
+
+//تغییر محتوای تگ بر اساس پیدا کردن ID
+
+</body>
+</html>
