@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 class="test">hiiiiiiii</h1>
+<h1 class="test">hiiiiiiii</h1>
+<h1 class="test">hiiiiiiii</h1>
+
+
+<script>
+document.getElementsByClassName("test")[0].innerHTML = "bye";
+document.getElementsByClassName("test")[1].innerHTML = "byee";
+document.getElementsByClassName("test")[2].innerHTML = "byee";
+</script>
+
+//تغییر بیش از یک تگ باید از کلاس استفاده کرد و با مشخص کردن اندیس انها را تغییر داد
+
+</body>
+</html>
