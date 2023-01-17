@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 name="test">hiiiiiiii</h1>
+<h1 name="test">hiiiiiiii</h1>
+<h1 name="test">hiiiiiiii</h1>
+
+<h2 >hiiiiiiii</h2>
+<h3 >hiiiiiiii</h3>
+
+<h4 id="test">hiiiiiiii</h4>
+
+<h5 class="test">hiiiiiiii</h5>
+
+<h6 name="test">hiiiiiiii</h6>
+
+<script>
+document.querySelectorAll(h1)[0].innerHTML = "bye";
+
+document.querySelectorAll(h2,h3).innerHTML = "bye";
+
+document.querySelectorAll(h4#test).innerHTML = "bye";
+
+document.querySelectorAll(h5.test).innerHTML = "bye";
+
+document.querySelectorAll(h5[name]).innerHTML = "bye";
+
+</script>
+
+
+//تمامی حالت های استفاده از کوری سلکتور به ترتیب
+
+</body>
+</html>
